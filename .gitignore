@@ -17,6 +17,15 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.DS_STORE
+
 # nyc test coverage
 .nyc_output
 
